@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --open --hot --mode development",
     "build": "webpack --mode production",
-    "test": "jest --env=jsdom -u",
+    "test": "jest --env=jsdom -u --passWithNoTests",
     "test:coverage": "jest --env=jsdom --coverage -u",
     "lint": "eslint src/**/*.{js,jsx,ts,tsx}",
     "lint:fix": "eslint --fix src/**/*.{js,jsx,ts,tsx}",
